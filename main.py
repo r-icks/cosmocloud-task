@@ -37,7 +37,7 @@ async def validation_exception_handler(request: Request, exc: RequestValidationE
         content={"detail": exc.errors()},
     )
 
-app.include_router(students_router)
+app.include_router(students_router, prefix="/api")
 
 @app.get("/", tags=["Root"])
 async def read_root():
