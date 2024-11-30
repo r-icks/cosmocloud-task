@@ -1,0 +1,50 @@
+# Python cache
+*.py[cod]
+__pycache__/
+*.so
+*.pyd
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Logs and environment files
+*.log
+.env
+
+# Byte-compiled files
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Test coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+
+# MyPy cache
+.mypy_cache/
+
+# Pyre type checker
+.pyre/
+
+# Cython debug output
+cython_debug/
+
+# Local development
+*.db
+.DS_Store
